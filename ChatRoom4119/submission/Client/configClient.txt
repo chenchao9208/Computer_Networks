@@ -1,0 +1,12 @@
+#### The configuration file of the client ####
+#### If this file is missing, the Client will still work with ClienConfig.java
+#### Format: <Attribute> <space> <=> <space> <Value>
+#
+# The heart beat period in seconds.
+HEATBEAT = 30
+#
+# Whether to turn on the heart beater.(true/false)
+HEATBEATER_ON = true
+#
+# Whether to launch the Client with GUI.(true/false)
+launchGUI = false

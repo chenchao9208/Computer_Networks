@@ -1,0 +1,22 @@
+# Configuration file of the server
+# If this file is missing, the Client will still 
+# work with the ServerConfig.java
+# Format: <Attribute> <space> <=> <space> <Value>
+#
+# Timeout in seconds to define how long will a user
+# be blocked for multiple failed logging in attempts.
+#
+BLOCKTIME = 60
+#
+# If the server has not heard from a client for 
+# TIMEOUT(s), the client will be labeled as logged
+# off and kicked out from the Chat Room.
+#
+TIMEOUT = 40
+#
+# The tolerance of failed logging in. When a user 
+# attempt and fail to login for too many time, it 
+# will be blocked.
+#
+LOGINATTEMPMAX = 3
+#
